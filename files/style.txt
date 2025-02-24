@@ -1,0 +1,124 @@
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+body {
+	font-family: 'Segoe UI', Arial;
+	width: 600px;
+	margin: 3rem auto;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	gap: .5rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+	header div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	header h1 {
+		margin: 0;
+	}
+
+	header p {
+		line-height: 1.25rem;
+		color: #393939;
+	}
+	
+	header a {
+		padding: .5rem;
+	}
+	
+		header a:hover {
+			transform: scaleX(115%) scaleY(115%);
+		}
+main {
+}
+
+	main div.grid {
+		display: grid;
+		grid-gap: 1rem;
+	}
+	
+	main h2 {
+		font-size: 2rem;
+	}
+	
+	main .source {
+		display: flex;
+		width: 100%;
+		border-radius: .75rem;
+	}
+		
+		main a:hover {
+			transform: scaleX(102%) scaleY(102%);
+			transition-behavior: normal;
+			transition-duration: 0.15s;
+			transition-timing-function: cubic-bezier(0, 0.2, 0.5, 3);
+			transition-delay: 0s;
+			transition-property: transform;
+		}
+			
+	main .source > div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1rem;
+		width: 100%;
+		position: relative;
+	}
+	
+		main .source > div > div.shop {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: .5rem;
+		}
+			
+	main .shop img {
+		width: 2rem;
+		height: 2rem;
+	}
+	
+	main .shop h3 {
+		font-weight: 600;
+		color: white;
+		margin: 0;
+		font-size: 1rem;
+	}
+	
+	main span {
+		color: white;
+		font-size: .875rem;
+		padding: .25rem .5rem;
+		border-radius: .5rem;
+		background: hsla(0, 0%, 100%, .3);
+	}
+	
+	main .copy:hover  {
+		cursor: pointer;
+		opacity: 0.7;
+	}
+	
+	main .copied {
+		position: absolute;
+		right: -70px;
+		background-color: green;
+		opacity: 0;
+	}
+
+.fadeInAndOut {
+	opacity: 1;
+	animation: fade 2s linear;
+}
+
+@keyframes fade {
+	0%,100% { opacity: 0 }
+	50% { opacity: 1 }
+}
