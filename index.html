@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Support and donate | CFF Studio">
+	<title>CFF Studio</title>
+    <link rel="icon" href="./files/logo.ico" type="image/x-icon" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="./files/style.css">
+  </head>
+  <body>
+    <header>
+		<img src="./files/logo.jpg" title="CFF Studio Logo">
+        <div>
+			<h1>CFF Studio</h1>
+            <p>
+				I'm a 3D modeler and animator specializing in the Transformers franchise, particularly Transformers: Prime. 
+				I create various environments, high-quality models, 3D videos, and 3D artwork.
+			</p>
+            <a href="https://www.youtube.com/@CFFStudio" target="_blank" title="CFF Studio YouTube">
+              <img src="./files/youtube.svg">
+            </a>
+		</div>
+    </header>
+		
+    <main class="main">	
+      <section>
+		<h2>Shops</h2>
+		<div class="grid">
+			<a href="https://boosty.to/tfps4" target="_blank" class="source" style="background-color:#f06d29">
+				<div>
+					<div class="shop">
+						<img src="./files/boosty.svg" title="CFF Studio Boosty">
+						<h3>Boosty</h3>
+					</div>
+					<span>Only from Russia</span>
+				</div>
+            </a>	
+			
+            <a href="https://hipolink.me/cffs/products" target="_blank" class="source" style="background-color:#e7778b">
+				<div>
+					<div class="shop">
+						<img src="./files/hipolink.png" title="CFF Studio Hipolink">
+						<h3>Hipolink</h3>
+					</div>
+					<span>Only from Russia</span>
+				</div>
+            </a>	
+			
+			<a href="https://www.youtube.com/channel/UCQkpZ-ySTdWKmO-QA-6xI8A/join" target="_blank" class="source" style="background-color:#F04545">
+				<div>
+					<div class="shop">
+						<img src="./files/youtubeReversed.svg" title="CFF Studio YouTube">
+						<h3>YouTube</h3>
+					</div>
+					<span>Only from EU/US</span>
+				</div>
+            </a>
+			
+			<a href="https://t.me/cffstudioshop" target="_blank" class="source" style="background-color:#00ABEF">
+				<div>
+					<div class="shop">
+						<img src="./files/telegram.svg" title="CFF Studio Telegram">
+						<h3>Telegram</h3>
+					</div>
+				</div>
+            </a>
+		</div>
+      </section>
+	  
+	  <section>
+		<h2>Donations</h2>
+		<div class="grid">
+			<a href="https://t.me/tribute/app?startapp=dm0M" target="_blank" class="source" style="background-color:#00ABEF">
+				<div>
+					<div class="shop">
+						<img src="./files/telegram.svg" title="CFF Studio Telegram Donate">
+						<h3>Telegram</h3>
+					</div>
+				</div>
+            </a>
+			
+			<div class="source" style="background-color:#2a3235">
+				<div>
+					<div class="shop">
+						<img src="./files/usdt.png" title="CFF Studio USDT (TRC20)">
+						<h3>USDT (TRC20)</h3>
+						<span id="usdtTrcNumber">TAAcAK2wXmVx8tu4XUtt6dte6dQebdthcM</span>
+					</div>
+					<img src="./files/copy.svg" title="CopyToClipboard" onclick="copyToClipboard('usdtTrcNumber')" class="copy">
+					<span class="copied usdtTrcNumber">Copied!</span>
+				</div>
+            </div>
+			
+			<div class="source" style="background-color:#2a3235">
+				<div>
+					<div class="shop">
+						<img src="./files/usdt.png" title="CFF Studio USDT (TRC20)">
+						<h3>USDT (TON)</h3>
+						<span id="usdtTonNumber">UQD-PWCBV4LxJ5cuTu0ssufY2WzrntG3zVouEZB-k31orlgT</span>
+					</div>
+					<img src="./files/copy.svg" title="CopyToClipboard" onclick="copyToClipboard('usdtTonNumber')" class="copy">
+					<span class="copied usdtTonNumber">Copied!</span>
+				</div>
+            </div>
+			
+			<div class="source" style="background-color:#2a3235">
+				<div>
+					<div class="shop">
+						<img src="./files/btc.png" title="CFF Studio Bitcoin (BTC)">
+						<h3>Bitcoin (BTC)</h3>
+						<span id="bitcoinNumber">1FvD3hW92Raer1wY8NYwJ9rJ5i96t8ryBi</span>
+					</div>
+					<img src="./files/copy.svg" title="CopyToClipboard" onclick="copyToClipboard('bitcoinNumber')" class="copy">
+					<span class="copied bitcoinNumber">Copied!</span>
+				</div>
+            </div>
+			
+			<div class="source" style="background-color:#2a3235">
+				<div>
+					<div class="shop">
+						<img src="./files/toncoin.png" title="CFF Studio Toncoin (TON)">
+						<h3>Toncoin (TON)</h3>
+						<span id="toncoinNumber">UQD-PWCBV4LxJ5cuTu0ssufY2WzrntG3zVouEZB-k31orlgT</span>
+					</div>
+					<img src="./files/copy.svg" title="CopyToClipboard" onclick="copyToClipboard('toncoinNumber')" class="copy">
+					<span class="copied toncoinNumber">Copied!</span>
+				</div>
+            </div>			
+          </div>
+      </section>     
+    </main>
+	
+    <footer>
+		<div>
+			<p>Contact me:
+				<a href="mailto:tfpunicron@gmail.com">tfpunicron@gmail.com</a>
+			</p>
+		</div>
+    </footer>
+  </body>
+  
+  <script>
+	function copyToClipboard(id) {
+		const text = document.getElementById(id).textContent;
+		navigator.clipboard.writeText(text);
+		
+		const span = document.getElementsByClassName(id)[0];
+		span.style.setProperty("display", "block");
+		span.classList.add("fadeInAndOut");
+
+		setTimeout(function() {
+			span.classList.remove("fadeInAndOut")
+		}, 2000);
+		console.log(text +' copied to clipboard');		
+	}
+  </script>
+</html>
